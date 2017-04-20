@@ -1,0 +1,43 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+header .topline {
+	background: linear-gradient(to right, #585eb5, #4a37ef);
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, .35);
+	color: #fff;
+	text-align: center;
+	/*padding: 15px 0;*/
+	line-height: 23px;
+}
+
+.topline .toplineelements {
+	display: inline-block;
+	padding-left: 68px;
+	min-height: 40px;
+	margin: 15px 0;	
+}
+
+.topline .location {
+	background: url(img/map.png) no-repeat;
+	background-size: 40px;
+	background-position: 0 center;	
+}
+
+.topline .phone {
+	background: url(img/phone.png) no-repeat;
+	background-size: 40px;
+	background-position: 0 center;
+	line-height: 40px;		
+}
+
+.topline .time {
+	background: url(img/clock.png) no-repeat;
+	background-size: 40px;
+	background-position: 0 center;		
+}
+
+
+
