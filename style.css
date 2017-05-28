@@ -27,6 +27,7 @@ header .topline {
 	/*padding: 15px 0;*/
 	line-height: 23px;
 	margin-bottom: 40px;
+    white-space: nowrap;
 }
 
 .topline .toplineelements {
@@ -47,6 +48,10 @@ header .topline {
 	background-size: 40px;
 	background-position: 0 center;
 	line-height: 40px;
+}
+
+.topline .phone a {
+    color: #fff;
 }
 
 .topline .time {
