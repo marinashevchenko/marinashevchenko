@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Katherine";
+    src: url(katherine.ttf);
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -8,7 +13,14 @@ h2 {
 	font-weight: 300;
 	font-size: 22px;
 	text-align: center;
-	margin: 25px 0 0 0;
+	margin: 25px 0 15px 0;
+	line-height: 35px;
+}
+
+h3 {
+	margin: 50px 0 50px 0;
+	font-size: 25px;
+	color: #444794;
 }
 
 div.logo {
@@ -85,6 +97,7 @@ nav .menuline {
 	padding: 10px 50px;
 	line-height: 23px;
 	font-size: 20px;
+	height: 80px;
 }
 
 .navbar {
@@ -118,6 +131,23 @@ nav .menuline {
 	height: 920px;
 }
 
+.notes {
+	background: url(img/notes.png) no-repeat;
+	background-size: contain;
+	height: 350px;
+	margin: 70px 0 0 0;
+	padding: 90px 50px;
+	text-align: left;
+	font-family: "Katherine";
+	font-size: 30px;
+	color: #4d4d4d;
+	line-height: 65px;
+}
+
+.author {
+	text-align: right;
+}
+
 .greybackground {
   	background-color: #e6e6e6;
   	/*height: 380px;*/
@@ -128,7 +158,6 @@ nav .menuline {
 .greybackground .round h2 {
     padding-bottom: 30px;
 }
-
 
 .therapy {
 	background: url(img/therapy.png) no-repeat;
@@ -157,8 +186,171 @@ nav .menuline {
 	height: 150px;
 	background-position: center;
 }
+a.services {
+	color: #000;
+}
 
+a:hover.services,
+a:focus.services {
+	text-decoration: none;
+	color: #555abb;
+}
 
+.staff {
+	margin-bottom: 45px;
+}
+
+.staff p {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.staff h2 {
+	font-weight: 400;
+}
+
+h3.staffheader {
+	text-align: center;
+}
+
+img.photomarina {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;    
+}
+
+img.doctor2 {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;    
+}
+
+img.doctor3 {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;    
+}
+
+img.nurse {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;   
+}
+
+img.admin {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;    
+}
+
+.contactinfo {
+	background: linear-gradient(to right, #585eb5, #4a37ef);
+	margin-bottom: 50px;
+}
+
+.contactinformation,
+.mapcontact {
+	height: 470px;
+}
+
+.superfluid {
+	padding: 0;
+}
+
+.contactinformation {
+	text-align: center;
+	color: #fff;
+	padding-top: 40px;
+
+}
+
+.contactinformation h4 {
+	font-weight: 300;
+	font-size: 22px;
+	margin: 0 0 15px 0;
+}
+
+.contactinformation p {
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 40px;
+	line-height: 40px;
+}
+
+.contactinformation hr {
+	width: 70%;
+	align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.phonecontact a {
+	color: #fff;
+}
+
+.workingtime,
+.phonecontact {
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+div.logobottom {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0;
+	padding: 27px 0 0 0;
+}
+
+a.brandbottom {
+	line-height: 10px;
+	background: url(img/logo.png) no-repeat;
+	background-size: 50px;
+	background-position: 0 center;
+	display: inline-block;
+	padding-left: 60px;
+	min-height: 90px;
+	/*margin-bottom: 35px;*/
+	text-decoration: none;		
+}
+a.brandbottom div {
+	font-size: 15px;
+}
+
+.about {
+	font-size: 15px;
+}
+
+.secondcolumn {
+	text-align: center;
+}
+
+.secondcolumn a,
+.thirdcolumn a {
+	color: #000;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.secondcolumn div,
+.thirdcolumn div {
+	padding-bottom: 10px;
+}
+
+.year {
+	text-align: center;
+	font-size: 14px;
+	margin: 100px 0 100px 0;
+}
 
 
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Подключение внешних стилей</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -62,7 +62,7 @@
 
         <nav class="navbar navbar-default">
             <div class="menuline">
-                <div class="container-fluid">
+                <div class="container">
                  <ul class="nav navbar-nav">
                     <li><a href="#">Услуги</a></li>
                     <li><a href="#">Цены</a></li>
@@ -84,23 +84,31 @@
                 <div class="row">
                     <div class="round">
                         <div class="col-sm-3">
-                            <div class="therapy"></div>
-                            <h2>Лечение зубов</h2>
+                            <a class="services" href="#">
+                                <div class="therapy"></div>
+                                <h2>Лечение зубов</h2>
+                            </a>
                         </div>
 
                         <div class="col-sm-3">
-                            <div class="surgery"></div>
-                            <h2>Хирургия</h2>
+                            <a class="services" href="#">
+                                <div class="surgery"></div>
+                                <h2>Хирургия</h2>
+                            </a>
                         </div>
 
                         <div class="col-sm-3">
-                            <div class="orto"></div>
-                            <h2>Ортопедия</h2>
+                            <a class="services" href="#">
+                                <div class="orto"></div>
+                                <h2>Ортопедия</h2>
+                            </a>
                         </div>
 
                         <div class="col-sm-3">
-                            <div class="visio"></div>
-                            <h2>Визиография</h2>
+                            <a class="services" href="#">
+                                <div class="visio"></div>
+                                <h2>Визиография</h2>
+                            </a>
                         </div>
 
                     </div>
@@ -108,6 +116,149 @@
             </div>
 
         </div>
+
+        <div class="staff">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3 class="staffheader">Наш коллектив</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="photomarina" src="img/marina.png" alt="Шевченко Марина Николаевна">
+                        <h2>Шевченко Марина <br> Николаевна</h2>
+                        <p>врач-стоматолог <br> высшей категории</p>
+                        <div class="row">
+                            <div class="col-xs-8 col-xs-offset-2">
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <img class="doctor2" src="img/doctor2.png" alt="Шевченко Марина Николаевна">
+                        <h2>Шевченко Марина <br> Николаевна</h2>
+                        <p>врач-стоматолог <br> высшей категории</p>
+                        <div class="row">
+                            <div class="col-xs-8 col-xs-offset-2">
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <img class="doctor3" src="img/doctor3.png" alt="Шевченко Марина Николаевна">
+                        <h2>Шевченко Марина <br> Николаевна</h2>
+                        <p>врач-стоматолог <br> высшей категории</p>
+                        <div class="row">
+                            <div class="col-xs-8 col-xs-offset-2">
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="nurse" src="img/nurse.png" alt="Шикова Ольга Анатольевна">
+                        <h2>Шикова Ольга <br> Анатольевна</h2>
+                        <p>медсестра</p>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <img class="admin" src="img/admin.png" alt="Ковалева Светлана Анатольевна">
+                        <h2>Ковалева Светлана <br> Анатольевна</h2>
+                        <p>администратор</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid superfluid">
+            <div class="contactinfo">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="contactinformation">
+                                <address>
+                                    <h4>Наш адрес</h4>
+                                    <hr>
+                                    <p>г. Новоалтайск, ул. Анатолия 11</p>
+                                </address>
+
+                                <div class="workingtime">
+                                    <h4>Время работы</h4>
+                                    <hr>
+                                    <p>Пн - Пт: 9:00 - 15:00<br>Сб - Вс: 9:00 - 15:00</p>
+                                </div>
+
+                                <div class="phonecontact">
+                                    <h4>Телефон</h4>
+                                    <hr>
+                                    <p><a href="tel:+73853245750">+7 (38532) 4-57-50</a></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mapcontact">
+                                <iframe src="https://api-maps.yandex.ru/frame/v1/-/C6eJqC3v" width="100%" height="100%" frameborder="0"></iframe>
+                            </div>
+                        </div>                        
+                    </div>
+            </div>
+        </div>
+
+        
+
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a class="brandbottom" href="/">
+                            <div class="logobottom">Стоматология</div> <br>
+                            <div>доктора Шевченко</div>
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="about">
+                                 Открытие нашей клиники состоялось в 2014 году. Врачи, работающие у нас, имеют большой опыт работы. Приходите к нам, мы вас ждём! Но предварительно нужно записаться по телефону <br> +7 (38532) 4-57-50
+                            </div>  
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="secondcolumn">
+                                <div><a href="#">Цены</a></div>
+                                
+                                <div><a href="#">Наши врачи</a></div>
+                                
+                                <div><a href="#">Услуги</a></div>
+                            </div>    
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <div class="thirdcolumn">
+                                <div><a href="#">Лицензия № ЛО-00-01-000000 от 15.01.2014</a></div>
+                                
+                                <div><a href="#">Уставные документы</a></div>
+                                
+                                <div><a href="#">Контакты</a></div>
+                            </div>                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="year">Стоматология доктора Шевченко&nbsp; &copy;2017г.</div>
+            </footer>        
 
        <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
