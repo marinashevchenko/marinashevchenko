@@ -35,8 +35,6 @@ header .topline {
 	background: linear-gradient(to right, #585eb5, #4a37ef);
 	box-shadow: 0 0 15px 5px rgba(0, 0, 0, .35);
 	color: #fff;
-	text-align: center;
-	/*padding: 15px 0;*/
 	line-height: 23px;
 	margin-bottom: 40px;
     white-space: nowrap;
