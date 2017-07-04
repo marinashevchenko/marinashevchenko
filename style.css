@@ -84,11 +84,6 @@ a.brand {
 	text-decoration: none;
 }
 
-/*menu {
-	padding: 0;
-	margin: 0;
-}*/
-
 nav .menuline {
 	background: linear-gradient(to right, #585eb5, #4a37ef);
 	box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .35);
@@ -97,7 +92,6 @@ nav .menuline {
 	padding: 10px 50px;
 	line-height: 23px;
 	font-size: 20px;
-	height: 80px;
 }
 
 .navbar {
@@ -125,10 +119,8 @@ nav .menuline {
 }
 
 
-.photo {
-	background: url(img/photo.png) no-repeat;
-	background-size: contain;
-	height: 920px;
+.photo img {
+    width: 100%;
 }
 
 .notes {
@@ -150,8 +142,6 @@ nav .menuline {
 
 .greybackground {
   	background-color: #e6e6e6;
-  	/*height: 380px;*/
-  	margin-top: -170px;
   	padding: 90px 0 60px 0;
 }
 
@@ -218,35 +208,35 @@ img.photomarina {
     max-width: 75%;
     height: auto;
     display: block;
-    margin: auto;    
+    margin: auto;
 }
 
 img.doctor2 {
     max-width: 75%;
     height: auto;
     display: block;
-    margin: auto;    
+    margin: auto;
 }
 
 img.doctor3 {
     max-width: 75%;
     height: auto;
     display: block;
-    margin: auto;    
+    margin: auto;
 }
 
 img.nurse {
     max-width: 75%;
     height: auto;
     display: block;
-    margin: auto;   
+    margin: auto;
 }
 
 img.admin {
     max-width: 75%;
     height: auto;
     display: block;
-    margin: auto;    
+    margin: auto;
 }
 
 .contactinfo {
@@ -320,7 +310,7 @@ a.brandbottom {
 	padding-left: 60px;
 	min-height: 90px;
 	/*margin-bottom: 35px;*/
-	text-decoration: none;		
+	text-decoration: none;
 }
 a.brandbottom div {
 	font-size: 15px;
