@@ -116,16 +116,22 @@ nav .menuline {
   	text-decoration: underline;
 }
 
+.photo {
+    position: relative;
+}
+
 .photo img {
     width: 100%;
 }
 
-.notes {
+.photo .notes {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    padding: 70px 50px;
 	background: url(img/notes.png) no-repeat;
 	background-size: contain;
 	height: 350px;
-	margin: 70px 0 0 0;
-	padding: 90px 50px;
 	text-align: left;
 	font-family: "Katherine";
 	font-size: 30px;
