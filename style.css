@@ -350,6 +350,11 @@ a.brandbottom div {
 }
 
 @media(max-width:767px) {
+
+	footer {
+		margin: 0;
+	}
+
 	.secondcolumn {
 		display: none;
 	}
